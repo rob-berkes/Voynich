@@ -88,7 +88,7 @@ def remove_repeats(flist,uniques,totals):
             except IndexError:
                 continue
         print 'Master file: '+str(af)+" Length: "+str(len(master))+"/"+str(totals)+" Unique:"+str(len(newmaster))+"/"\
-        + str(uniques)+" First Word: "+str(firstUnq)+"/"+str(firstTot)+" Second Word: "+str(secondUnq)+"/"+str(secondTot)
+        + str(uniques)
 
     print_words_report(Tot_List,Unq_List,WORDSTOCOUNT)
     word_count_to_file(Tot_List,Unq_List,WORDSTOCOUNT)
